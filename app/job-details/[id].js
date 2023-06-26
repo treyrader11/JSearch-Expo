@@ -30,6 +30,8 @@ const JobDetails = () => {
     job_id: params.id,
   });
 
+  console.log('useSearchParams', useSearchParams);
+
   const [activeTab, setActiveTab] = useState(tabs[0]);
   const [refreshing, setRefreshing] = useState(false);
 
